@@ -2,7 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DesafioTecnico.Application.InterfaceServices;
+using DesafioTecnico.Application.Services;
 using DesafioTecnico.Infrastructure.Context;
+using DesafioTecnico.Infrastructure.InterfaceRepository;
+using DesafioTecnico.Infrastructure.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +34,11 @@ namespace DesafioTecnico.API
             services.AddDbContext<APIContext>(options =>
              options.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
 
+            services.AddTransient<IClientService, ClientService>();
+            services.AddTransient<ICityService, CityService>();
+
+            services.AddTransient<IClientRepository, ClientRepository>();
+            services.AddTransient<ICityRepository, CityRepository>();
 
             services.AddSwaggerGen();
 

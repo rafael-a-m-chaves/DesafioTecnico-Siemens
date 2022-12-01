@@ -1,7 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesafioTecnico.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace DesafioTecnico.Infrastructure.Context
 {
@@ -10,8 +8,8 @@ namespace DesafioTecnico.Infrastructure.Context
         public APIContext(DbContextOptions<APIContext> options) : base(options) { }
 
 
-        //public virtual DbSet<Cliente> Cliente { get; set; }
-        //public virtual DbSet<Cidade> Cidade { get; set; }
+        public virtual DbSet<Client> Client { get; set; }
+        public virtual DbSet<City> City { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
