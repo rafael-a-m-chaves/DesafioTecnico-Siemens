@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
       "projectName": "DesafioTecnico.Infrastructure",
-      "projectPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
+      "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
+      "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

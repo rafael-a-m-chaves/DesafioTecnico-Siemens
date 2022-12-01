@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4vFd+WdGjaKM5nWMCXldtc4Knm8+x0H9JgSRg0eAZm3uZhBTo5X5Ycig8onhD6c+yw96mQp6ZD+nzbBJWAKb6Q==",
+  "dgSpecHash": "nf4Avg1XTdFQzoCKHiJgzy1otSPtnPGHhu6dReVswJGodVzEZWlepPW/KGW6Pb5/p8QUDiCZCshO9YketMGruQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
+  "projectFilePath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

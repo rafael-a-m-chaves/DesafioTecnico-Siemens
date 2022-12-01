@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {}
+    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
+    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
+        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
         "projectName": "DesafioTecnico.Application",
-        "projectPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
+        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Application\\obj\\",
+        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
