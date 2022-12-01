@@ -1857,6 +1857,61 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DesafioTecnico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "System.Text.Json": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesafioTecnico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesafioTecnico.Domain.dll": {}
+        }
+      },
+      "DesafioTecnico.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DesafioTecnico.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "System.Text.Json": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesafioTecnico.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesafioTecnico.Infrastructure.dll": {}
+        }
+      },
+      "DesafioTecnico.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "System.Text.Json": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesafioTecnico.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesafioTecnico.Library.dll": {}
+        }
       }
     }
   },
@@ -6396,10 +6451,28 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DesafioTecnico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DesafioTecnico.Domain/DesafioTecnico.Domain.csproj",
+      "msbuildProject": "../DesafioTecnico.Domain/DesafioTecnico.Domain.csproj"
+    },
+    "DesafioTecnico.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DesafioTecnico.Infrastructure/DesafioTecnico.Infrastructure.csproj",
+      "msbuildProject": "../DesafioTecnico.Infrastructure/DesafioTecnico.Infrastructure.csproj"
+    },
+    "DesafioTecnico.Library/1.0.0": {
+      "type": "project",
+      "path": "../DesafioTecnico.Library/DesafioTecnico.Library.csproj",
+      "msbuildProject": "../DesafioTecnico.Library/DesafioTecnico.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DesafioTecnico.Domain >= 1.0.0",
+      "DesafioTecnico.Infrastructure >= 1.0.0",
+      "DesafioTecnico.Library >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Analyzers >= 5.0.17",
@@ -6442,7 +6515,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+              "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
+            },
+            "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
+              "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj"
+            },
+            "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
+              "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
