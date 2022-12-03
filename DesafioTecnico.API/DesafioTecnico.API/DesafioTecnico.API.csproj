@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Token\" />
+    <Compile Remove="Token\**" />
+    <Content Remove="Token\**" />
+    <EmbeddedResource Remove="Token\**" />
+    <None Remove="Token\**" />
   </ItemGroup>
 
   <ItemGroup>

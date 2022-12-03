@@ -13,6 +13,6 @@ namespace DesafioTecnico.Domain.Entities
         public DateTime DateCreate { get; set; }
 
         [Column("Date_Update")]
-        public DateTime DateUpdate { get; set; }
+        public DateTime? DateUpdate { get; set; }
     }
 }
