@@ -37,6 +37,24 @@ namespace DesafioTecnico.API.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetCity(int idCity)
+        {
+            try
+            {
+                return Ok(await _cityService.GetCity(idCity));
+            }
+            catch
+            {
+                return BadRequest(new ReturnStructure()
+                {
+                    Messages = new List<string>() { ErrorMessages.InternalError },
+                    Success = false
+                }
+                 );
+            }
+        }
+
         [HttpPost]
         public async Task<IActionResult> InsertCity([FromBody] CityInputDto cityInputDto)
         {

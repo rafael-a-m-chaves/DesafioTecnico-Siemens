@@ -20,6 +20,19 @@ namespace DesafioTecnico.Domain.Dtos.Output.City
             
         }
 
+        public static explicit operator CityOutputDto(Entities.City v)
+        {
+            return new CityOutputDto()
+            {
+                Name = v.Name,
+                UF = v.UF,
+                Id = v.Id,
+                DateUpdateOrCreate = v.DateUpdate == null ?
+                                     v.DateCreate.ToString("dd/MM/yyyy HH:mm") :
+                                     v.DateUpdate?.ToString("dd/MM/yyyy HH:mm")
+            };
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }

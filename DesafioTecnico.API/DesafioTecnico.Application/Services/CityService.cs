@@ -94,13 +94,15 @@ namespace DesafioTecnico.Application.Services
 
                 City city = _cityRepository.Obter(updateCityInputDto.Id);
 
-                if(city == null)
+                if (city == null || city.Id == 0)
                 {
                     returnStructure.Messages = new List<string>() { ErrorMessages.CityNotFound };
                     return await Task.Run(() => { return returnStructure; });
                 }
 
-                city = (City)updateCityInputDto;
+                city.Name = updateCityInputDto.Name;
+                city.UF = updateCityInputDto.UF;
+                city.DateUpdate = DateTime.Now;
 
                 _cityRepository.Atualizar(city);
                 await _cityRepository.CommitAsync();
@@ -122,6 +124,13 @@ namespace DesafioTecnico.Application.Services
             try
             {
                 var city = _cityRepository.Obter(idCity, propriedadesIncluidas: "Clients");
+
+                if(city == null || city.Id == 0)
+                {
+                    returnStructure.Messages = new List<string>() { ErrorMessages.CityNotFound };
+                    return await Task.Run(() => { return returnStructure; });
+                }
+
                 if (city.Clients != null && city.Clients.Count > 0)
                 {
                     returnStructure.Success = false;
@@ -129,12 +138,35 @@ namespace DesafioTecnico.Application.Services
                 }
                 else
                 {
-                    _cityRepository.Excluir(idCity);
+                    _cityRepository.Excluir(city);
                     _cityRepository.Commit();
                     returnStructure.Success = true;
                     returnStructure.Messages = new List<string>() { SuccesMessages.SuccessCityDeleted };
                 }
                 return await Task.Run(()=> { return returnStructure; });
+            }
+            catch
+            {
+                returnStructure.Success = false;
+                returnStructure.Messages = new List<string>() { ErrorMessages.InternalError };
+                return await Task.Run(() => { return returnStructure; });
+            }
+        }
+
+        public async Task<ReturnStructureData<CityOutputDto>> GetCity(int idCity)
+        {
+            ReturnStructureData<CityOutputDto> returnStructure = new ReturnStructureData<CityOutputDto>() { Success = false };
+            try
+            {
+                var city = _cityRepository.Obter(idCity);
+
+                returnStructure.Success = city != null && city.Id != 0;
+                returnStructure.Data = city != null && city.Id != 0 ? (CityOutputDto)city : null;
+                returnStructure.Messages = new List<string>() { city != null && city.Id != 0 ?
+                    SuccesMessages.SuccessSearchCities:
+                    ErrorMessages.CityNotFound };
+
+                return await Task.Run(() => { return returnStructure; });
             }
             catch
             {
