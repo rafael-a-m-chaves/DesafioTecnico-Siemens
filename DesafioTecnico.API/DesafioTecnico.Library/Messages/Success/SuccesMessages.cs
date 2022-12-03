@@ -15,5 +15,8 @@
         public static string SuccessSearchCities = "Lista de cidades compatíveis com o filtro";
 
         public static string SuccessCityDeleted = "Cidade excluida com sucesso";
+        public static string SuccessListClients;
+        public static string SuccessSearchClients;
+        public static string SuccessClientDeleted;
     }
 }

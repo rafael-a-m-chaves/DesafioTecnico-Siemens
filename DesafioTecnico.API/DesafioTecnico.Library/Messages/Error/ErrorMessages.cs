@@ -17,5 +17,12 @@
         public static string UFLengthError = "UF está fora do padrão que é de dois caracteres";
 
         public static string CityAlreadyRegistered = "Está cidade já castrada anteriormente";
+        public static string ClientNotFound;
+        public static string NullClientValidate;
+        public static string NullOrEmptyClientNameValidate;
+        public static string NullOrEmptyClientUFValidate;
+        public static string NullOrEmptyClientGenderValidate;
+        public static string GenderLengthCaracterError;
+        public static string CityReferenceError;
     }
 }
