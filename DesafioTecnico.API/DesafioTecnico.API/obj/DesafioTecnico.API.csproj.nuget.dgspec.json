@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj": {}
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj",
         "projectName": "DesafioTecnico.API",
-        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.API\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.API\\DesafioTecnico.API.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,21 +26,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj"
               },
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
               },
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj"
+              },
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj"
               }
             }
           }
@@ -114,8 +116,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -127,24 +128,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
         "projectName": "DesafioTecnico.Application",
-        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Application\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,21 +154,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
               },
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj"
               },
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj"
               }
             }
           }
@@ -225,8 +225,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -235,24 +234,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
         "projectName": "DesafioTecnico.Domain",
-        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,7 +260,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -323,8 +321,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -333,24 +330,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
         "projectName": "DesafioTecnico.Infrastructure",
-        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -359,15 +356,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
-                "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
+              "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+                "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj"
               }
             }
           }
@@ -382,6 +378,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -425,8 +425,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -435,24 +434,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
         "projectName": "DesafioTecnico.Library",
-        "projectPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Desafio Tecnico\\DesafioTecnico.API\\DesafioTecnico.Library\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -461,7 +460,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -523,8 +521,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -533,7 +530,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

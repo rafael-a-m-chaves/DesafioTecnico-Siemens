@@ -30,7 +30,7 @@ namespace DesafioTecnico.Infrastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("Date_Create");
 
-                    b.Property<DateTime>("DateUpdate")
+                    b.Property<DateTime?>("DateUpdate")
                         .HasColumnType("datetime2")
                         .HasColumnName("Date_Update");
 
@@ -66,7 +66,7 @@ namespace DesafioTecnico.Infrastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("Date_Create");
 
-                    b.Property<DateTime>("DateUpdate")
+                    b.Property<DateTime?>("DateUpdate")
                         .HasColumnType("datetime2")
                         .HasColumnName("Date_Update");
 

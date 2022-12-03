@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enuns\" />
-    <Folder Include="Dtos\" />
+    <Compile Remove="Enuns\**" />
+    <EmbeddedResource Remove="Enuns\**" />
+    <None Remove="Enuns\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.Text.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\Input\Client\" />
+    <Folder Include="Dtos\Output\Client\" />
   </ItemGroup>
 
 </Project>
