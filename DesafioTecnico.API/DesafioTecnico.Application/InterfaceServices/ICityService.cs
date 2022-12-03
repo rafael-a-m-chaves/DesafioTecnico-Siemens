@@ -15,5 +15,7 @@ namespace DesafioTecnico.Application.InterfaceServices
         Task<ReturnStructureData<List<CityOutputDto>>> ListCity(string nome, string uf);
 
         Task<ReturnStructure> DeleteCity(int idCity);
+
+        Task<ReturnStructureData<CityOutputDto>> GetCity(int idCity);
     }
 }
