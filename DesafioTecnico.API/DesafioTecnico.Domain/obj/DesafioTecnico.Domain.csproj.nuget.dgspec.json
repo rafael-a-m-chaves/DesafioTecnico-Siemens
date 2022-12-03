@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {}
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
+    "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
         "projectName": "DesafioTecnico.Domain",
-        "projectPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\DesafioTecnico.API\\DesafioTecnico.Domain\\obj\\",
+        "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
+        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,14 +43,51 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

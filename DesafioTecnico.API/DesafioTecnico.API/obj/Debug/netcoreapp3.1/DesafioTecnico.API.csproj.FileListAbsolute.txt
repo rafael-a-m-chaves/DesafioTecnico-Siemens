@@ -22,3 +22,176 @@ D:\Projetos\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\Desafi
 D:\Projetos\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.dll
 D:\Projetos\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.pdb
 D:\Projetos\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.genruntimeconfig.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.exe
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.deps.json
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.runtimeconfig.json
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.runtimeconfig.dev.json
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Application.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Domain.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Infrastructure.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Library.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Application.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Infrastructure.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Library.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Domain.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.AssemblyReference.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.AssemblyInfoInputs.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.AssemblyInfo.cs
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.CoreCompileInputs.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\DesafioTecnico.API.StaticWebAssets.Manifest.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\DesafioTecnico.API.StaticWebAssets.Pack.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.DesafioTecnico.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.DesafioTecnico.API.props
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.DesafioTecnico.API.props
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.DesafioTecnico.API.props
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.RazorTargetAssemblyInfo.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.CopyComplete
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.pdb
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.genruntimeconfig.cache
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.SwaggerUi.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.exe
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.deps.json
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.runtimeconfig.json
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.runtimeconfig.dev.json
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.API.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.SwaggerUi.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Application.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Domain.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Infrastructure.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Library.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Application.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Infrastructure.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Library.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\DesafioTecnico.Domain.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.AssemblyReference.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.AssemblyInfoInputs.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.AssemblyInfo.cs
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.CoreCompileInputs.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\DesafioTecnico.API.StaticWebAssets.Manifest.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\staticwebassets\DesafioTecnico.API.StaticWebAssets.xml
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\DesafioTecnico.API.styles.css
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.RazorTargetAssemblyInfo.cache
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.csproj.CopyComplete
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.dll
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.pdb
+C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\obj\Debug\netcoreapp3.1\DesafioTecnico.API.genruntimeconfig.cache
