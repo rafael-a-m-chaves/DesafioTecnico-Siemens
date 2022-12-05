@@ -1,0 +1,28 @@
+<div class="content">
+    <table class="table-content" >
+        <thead >
+            <tr>
+                <ng-container *ngFor="let item of theadList">
+                    <th [style]="item.style">
+                        {{item.value}}
+                    </th>
+                </ng-container>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let line of bodyList ">
+                <tr>
+                    <ng-container *ngFor="let column of line">
+                        <td *ngIf="column.type=='text'">
+                            {{column.value}}
+                        </td>
+                        <td *ngIf="column.type=='action'">
+                            <i class="fa fa-search details-icon action" (click)="RedirectToDetailPage(column.urlDetail)" aria-hidden="true"></i>
+                            <i class="fa fa-trash delete-icon action" aria-hidden="true" (click)="DeleteItem(column.value)"></i>                      
+                        </td>
+                    </ng-container>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</div>

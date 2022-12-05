@@ -1,0 +1,22 @@
+<app-side-bar>
+    <span>Home</span><span>/Clientes</span>
+    <hr/>
+    <div class="header">
+        <h1>Clientes cadastrados</h1>
+        <p>Filtros:</p>
+        <form>
+            <label for="name">Nome Cliente:</label>
+            <input type="text" id="name" placeholder="Nome Cliente">
+            <label for="idClient">Id cliente:</label>
+            <input type="number" id="idClient" placeholder="Id cliente">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="Cidade">
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" placeholder="Estado">
+        </form>
+    </div>
+    <hr/>
+    <div class="bodyTable">
+        <app-grid [theadList]="columns.header" [bodyList]="dataObjectClient" (callParent)="onCallParent($event)" ></app-grid>
+    </div>
+</app-side-bar>

@@ -211,12 +211,6 @@ namespace DesafioTecnico.Application.Services
                 return await Task.Run(() => { return returnStructure; });
             }
 
-            if (clientInputDto.Gender.Length != 1)
-            {
-                returnStructure.Messages = new List<string>() { ErrorMessages.GenderLengthCaracterError };
-                return await Task.Run(() => { return returnStructure; });
-            }
-
             if (clientInputDto.IdCity == 0)
             {
                 returnStructure.Messages = new List<string>() { ErrorMessages.CityReferenceError };

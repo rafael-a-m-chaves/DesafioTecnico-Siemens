@@ -6499,7 +6499,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafael.chaves\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -6508,14 +6508,14 @@
       "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
       "projectName": "DesafioTecnico.Infrastructure",
       "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
       "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

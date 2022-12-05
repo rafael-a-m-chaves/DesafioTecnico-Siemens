@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
         "projectName": "DesafioTecnico.Application",
         "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\DesafioTecnico.Application.csproj",
-        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -116,14 +116,14 @@
         "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
         "projectName": "DesafioTecnico.Domain",
         "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\DesafioTecnico.Domain.csproj",
-        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -212,14 +212,14 @@
         "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
         "projectName": "DesafioTecnico.Infrastructure",
         "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\DesafioTecnico.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -316,14 +316,14 @@
         "projectUniqueName": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
         "projectName": "DesafioTecnico.Library",
         "projectPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\DesafioTecnico.Library.csproj",
-        "packagesPath": "C:\\Users\\rafael.chaves\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "C:\\Repos\\desafio\\DesafioTecnico-Siemens\\DesafioTecnico.API\\DesafioTecnico.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.chaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

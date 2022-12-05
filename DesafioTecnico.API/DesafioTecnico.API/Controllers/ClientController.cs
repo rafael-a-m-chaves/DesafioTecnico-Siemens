@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DesafioTecnico.API.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/v1/[controller]/[action]")]
     [ApiController]
     public class ClientController : ControllerBase
     {
