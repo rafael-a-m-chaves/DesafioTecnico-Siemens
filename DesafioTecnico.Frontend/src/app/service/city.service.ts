@@ -10,8 +10,18 @@ export class CityService {
 
   }
 
-  listCities(){
-    return this.baseService.get(`City/ListCities`)
+  listCities(idCity?:number, name?:string, uf?:string){
+    let param = "/?"
+    if(idCity){
+      param += param.length > 2 ? `&idCity=${idCity}` : `idCity=${idCity}`
+    }
+    if(name && name.length > 0){
+      param += `name=${name}`
+    }
+    if(uf){
+      param += param.length > 2 ? `&uf=${uf}` : `uf=${uf}`
+    }
+    return this.baseService.get(`City/ListCities${param.length > 2 ? param:''}`)
   }
 
   insertCity(dto:any){
@@ -19,11 +29,11 @@ export class CityService {
   }
 
   updateCity(dto:any){
-    return this.baseService.post(`City/UpdateCity`,dto)
+    return this.baseService.put(`City/UpdateCity`,dto)
   }
 
   getCity(id:number){
-    return this.baseService.delete(`City/GetCity/?idCity=${id}`)
+    return this.baseService.get(`City/GetCity/?idCity=${id}`)
   }
 
   deleteCity(id:number){

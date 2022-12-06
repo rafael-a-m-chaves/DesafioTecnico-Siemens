@@ -29,11 +29,11 @@ export class ClientService {
   }
 
   updateClient(dto:any){
-    return this.baseService.post(`Client/UpdateClient`,dto)
+    return this.baseService.put(`Client/UpdateClient`,dto)
   }
 
   getClient(id:number){
-    return this.baseService.delete(`Client/GetClient/?idClient=${id}`)
+    return this.baseService.get(`Client/GetClient/?idClient=${id}`)
   }
 
   deleteClient(id:number){

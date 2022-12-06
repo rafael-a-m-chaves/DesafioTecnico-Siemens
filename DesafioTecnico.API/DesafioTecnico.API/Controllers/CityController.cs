@@ -20,11 +20,11 @@ namespace DesafioTecnico.API.Controllers
 
         
         [HttpGet]
-        public async Task<IActionResult> ListCities(string name, string uf)
+        public async Task<IActionResult> ListCities(string name, string uf,int? idCity)
         {
             try
             {
-                return Ok(await _cityService.ListCity(name,uf));
+                return Ok(await _cityService.ListCity(name,uf, idCity));
             }
             catch
             {

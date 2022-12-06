@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './screen/home-page/home-page.component';
@@ -14,6 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { InputComponent } from './components/input/input.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { ToastrModule } from 'ngx-toastr';
+import { CityPageComponent } from './screen/city-page/city-page.component';
+import { CityDetailPageComponent } from './screen/city-detail-page/city-detail-page.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,8 @@ import { NgSelectModule } from '@ng-select/ng-select';
     GridComponent,
     ClientDetailPageComponent,
     InputComponent,
+    CityPageComponent,
+    CityDetailPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,9 @@ import { NgSelectModule } from '@ng-select/ng-select';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-    NgSelectModule 
+    NgSelectModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(), 
   ],
   providers: [BaseService,ClientService],
   bootstrap: [AppComponent]

@@ -1,29 +1,29 @@
 <app-side-bar>
-    <span>Home / Clientes</span>
+    <span>Home / Cidade</span>
     <hr/>
     <div class="header">
-        <h1>Clientes cadastrados</h1>
+        <h1>Cidades cadastradas</h1>
         <p>Filtros:</p>
         <form class="formControl">
+            <div class="InputId">
+                <app-input [label]="'Id cidade'" [type]="'number'" 
+                [formGroupControl]="form" [formControlNameInput]="'idCity'">       
+                </app-input>    
+            </div>
             <div class="Inputname">
-                <app-input [label]="'Nome cliente'" [type]="'text'" 
+                <app-input [label]="'Nome cidade'" [type]="'text'" 
                 [formGroupControl]="form" [formControlNameInput]="'name'">       
                 </app-input>        
             </div>
-            <div class="InputId">
-                <app-input [label]="'Id cliente'" [type]="'number'" 
-                [formGroupControl]="form" [formControlNameInput]="'id'">       
-                </app-input>    
-            </div>
-            <ng-container *ngIf="listCities && listCities.length > 0 "> 
+            <ng-container *ngIf="listUf && listUf.length > 0 "> 
                 <div class="InputSelect">
-                    <app-input [label]="'Cidade'" [type]="'select'" 
-                    [formGroupControl]="form" [formControlNameInput]="'city'" [DataSelect]="listCities">       
+                    <app-input [label]="'UF'" [type]="'select'" 
+                    [formGroupControl]="form" [formControlNameInput]="'uf'" [DataSelect]="listUf">       
                     </app-input>
                 </div>
             </ng-container>
             <div class="divButton">
-                <button type="button" (click)="seacherClient()" class="button">
+                <button type="button" (click)="seacherCity()" class="button">
                     <i  class="fa fa-search action"></i>
                     Pesquisar
                 </button>
@@ -38,6 +38,6 @@
     </div>
     <hr/>
     <div class="bodyTable">
-        <app-grid [theadList]="columns.header" [bodyList]="dataObjectClient" (callParent)="onCallParent($event)" ></app-grid>
+        <app-grid [theadList]="columns.header" [bodyList]="dataObjectCity" (callParent)="onCallParent($event)" ></app-grid>
     </div>
 </app-side-bar>

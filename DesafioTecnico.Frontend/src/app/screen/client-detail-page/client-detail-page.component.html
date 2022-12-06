@@ -2,6 +2,42 @@
     <span>Home / Clientes / {{idClient && idClient > 0 ? 'Atualizar Cliente' : 'Cadastrar novo cliente'}}</span>
     <hr/>
     <div class="bodyPage">
-        
+        <form class="formControl">
+            <div class="row">
+                <div class="inputName">
+                    <app-input [label]="'Nome cliente'" [type]="'text'" [FildValue]="outputDto.name"
+                    [formGroupControl]="form" [formControlNameInput]="'name'">       
+                    </app-input> 
+                </div>
+                <div class="InputGender">
+                    <app-input [label]="'Sexo'" [type]="'select'" [FildValue]="outputDto.gender"
+                    [formGroupControl]="form" [formControlNameInput]="'gender'" [DataSelect]="gender.listGender">       
+                    </app-input>
+                </div>
+            </div>
+            <div class="row">
+                <ng-container *ngIf="listCities && listCities.length > 0 "> 
+                    <div class="InputCity">
+                        <app-input [label]="'Cidade'" [type]="'select'" [FildValue]="outputDto.idCity"
+                        [formGroupControl]="form" [formControlNameInput]="'idCity'" [DataSelect]="listCities">       
+                        </app-input>
+                    </div>
+                </ng-container>
+                <div class="InputDate">
+                    <app-input [label]="'Data nascimento'" [type]="'date'" [FildValue]="outputDto.birthDate"
+                    [formGroupControl]="form" [formControlNameInput]="'birthDate'">       
+                    </app-input> 
+                </div>
+            </div>
+            <div class="row">
+                <button type="button" (click)="postClient()" class="submit">
+                    Salvar
+                </button>
+
+                <button type="button" class="cancel">
+                    Cancelar
+                </button>
+            </div>
+        </form>
     </div>
 </app-side-bar>

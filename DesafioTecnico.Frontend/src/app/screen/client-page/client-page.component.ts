@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { ToastrService } from 'ngx-toastr';
 import CityInputDto from 'src/app/controls/CidadeInputDto';
 import ClienteInputDto from 'src/app/controls/ClientInputDto';
 import { ClientHeader } from 'src/app/controls/HeaderTable';
@@ -20,7 +21,8 @@ export class ClientPageComponent implements OnInit {
   
   constructor(
     private clientService: ClientService,
-    private cityService: CityService) { 
+    private cityService: CityService,
+    private toast: ToastrService) { 
     this.columns = new ClientHeader();
   }
 
@@ -56,6 +58,9 @@ export class ClientPageComponent implements OnInit {
     this.clientService.deleteClient(id).subscribe(data  => {
       if(data.success){
         this.listClients()
+        data.messages?.forEach(element => this.toast.success(element))
+      }else{
+        data.messages?.forEach(element => this.toast.error(element))
       }
     })
   }
@@ -64,6 +69,9 @@ export class ClientPageComponent implements OnInit {
     this.clientService.listClients().subscribe(data => {
       if(data.success){
         this.ConvertDateForColumTable(data.data)
+        data.messages?.forEach(element => this.toast.success(element))
+      }else{
+        data.messages?.forEach(element => this.toast.error(element))
       }
     })
   }
@@ -84,6 +92,9 @@ export class ClientPageComponent implements OnInit {
       if(data.success){
         console.log(data.messages)
         this.ConvertDateForColumTable(data.data)
+        data.messages?.forEach(element => this.toast.success(element))
+      }else{
+        data.messages?.forEach(element => this.toast.error(element))
       }
     })
   }
@@ -92,6 +103,9 @@ export class ClientPageComponent implements OnInit {
     this.cityService.listCities().subscribe(data => {
       if(data.success){
         this.convertCityInListSelect(data.data)
+        data.messages?.forEach(element => this.toast.success(element))
+      }else{
+        data.messages?.forEach(element => this.toast.error(element))
       }
     })
   }

@@ -21,7 +21,8 @@ export class BaseService {
 
 	post(endPoint: string, data: any) : Observable<EstrutucAwaitResponse> {
 		let body = JSON.stringify(data);
-		return this.http.post<any>(this.serviceURL + endPoint, body);
+		let options = this.createOptions();
+		return this.http.post<any>(this.serviceURL + endPoint, body,options);
 	}
 
 	delete(endPoint: string) : Observable<EstrutucAwaitResponse> {
@@ -30,6 +31,18 @@ export class BaseService {
 
 	put(endPoint: string, data: any) : Observable<EstrutucAwaitResponse> {
 		let body = JSON.stringify(data);
-		return this.http.post<any>(this.serviceURL + endPoint, body);
+		let options = this.createOptions();
+		return this.http.put<any>(this.serviceURL + endPoint, body,options);
 	}
+
+	createOptions() {
+
+		let options = {
+			headers: new HttpHeaders({
+				'Content-Type': 'application/json'
+			})
+		}
+		return options;
+	}
+
 }
