@@ -51,3 +51,9 @@ hr{
     cursor: pointer;
     margin-left: 6px;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

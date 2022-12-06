@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import CityInputDto from 'src/app/controls/CidadeInputDto';
 import ClienteInputDto from 'src/app/controls/ClientInputDto';
@@ -22,7 +23,8 @@ export class ClientPageComponent implements OnInit {
   constructor(
     private clientService: ClientService,
     private cityService: CityService,
-    private toast: ToastrService) { 
+    private toast: ToastrService,
+    private router: Router) { 
     this.columns = new ClientHeader();
   }
 
@@ -125,5 +127,9 @@ export class ClientPageComponent implements OnInit {
     this.form.get("city")?.setValue(null)
 
     this.listClients()
+  }
+
+  newClient(){
+    this.router.navigate(['/clientsDatailPage/0'])
   }
 }

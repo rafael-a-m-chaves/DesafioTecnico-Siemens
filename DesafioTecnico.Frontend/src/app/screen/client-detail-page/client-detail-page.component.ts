@@ -113,5 +113,9 @@ export class ClientDetailPageComponent implements OnInit {
       })
     }
   }
+
+  cancel(){
+    this.router.navigate(['clientsPage'])
+  }
 }
 

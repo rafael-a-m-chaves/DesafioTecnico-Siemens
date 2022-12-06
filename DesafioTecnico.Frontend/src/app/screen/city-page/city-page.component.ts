@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import CityInputDto from 'src/app/controls/CidadeInputDto';
 import { CityHeader } from 'src/app/controls/HeaderTable';
@@ -19,7 +20,8 @@ export class CityPageComponent implements OnInit {
   listUf:any[]
   constructor(
     private cityService: CityService,
-    private toast: ToastrService) { 
+    private toast: ToastrService,
+    private router: Router) { 
     this.columns = new CityHeader();
     this.listUf = new States().listStates
   }
@@ -95,13 +97,14 @@ export class CityPageComponent implements OnInit {
     })
   }
 
-  
+  newCity(){
+    this.router.navigate(['/cityDatailPage/0'])
+  }
 
   clearSearch(){
     this.form.get("name")?.setValue('')
     this.form.get("idCity")?.setValue(null)
     this.form.get("uf")?.setValue(null)
-
     this.listCity()
   }
 }
