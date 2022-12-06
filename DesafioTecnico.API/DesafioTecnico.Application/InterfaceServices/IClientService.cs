@@ -10,7 +10,7 @@ namespace DesafioTecnico.Application.InterfaceServices
     {
         Task<ReturnStructure> InsertNewClient(ClientInputDto newClientInputDto);
 
-        Task<ReturnStructureData<List<ClientOutputDto>>> ListClient(string nome, string uf, int? id);
+        Task<ReturnStructureData<List<ClientOutputDto>>> ListClient(string nome, int? idCity, int? idClient);
 
         Task<ReturnStructure> UpdateClient(ClientInputDto updateClientInputDto);
 

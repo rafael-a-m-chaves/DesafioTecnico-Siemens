@@ -48,7 +48,7 @@ namespace DesafioTecnico.Application.Services
             }
         }
 
-        public async Task<ReturnStructureData<List<CityOutputDto>>> ListCity(string nome, string uf) 
+        public async Task<ReturnStructureData<List<CityOutputDto>>> ListCity(string nome, string uf, int? idCity) 
         {
             var returnStructure = new ReturnStructureData<List<CityOutputDto>>();
 
@@ -61,6 +61,8 @@ namespace DesafioTecnico.Application.Services
 
                 if (!string.IsNullOrWhiteSpace(uf))
                     query.Add(x => x.UF.ToLower().Contains(uf.ToLower()));
+                if (idCity != null)
+                    query.Add(x => x.Id == idCity);
 
                 List<City> listCities = _cityRepository.Listar(query, ordenadoPor: (y => y.OrderBy(y => y.UF + y.Name))).ToList();
 

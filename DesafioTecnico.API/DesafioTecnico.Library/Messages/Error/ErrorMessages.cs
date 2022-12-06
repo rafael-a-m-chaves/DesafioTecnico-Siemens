@@ -17,12 +17,17 @@
         public static string UFLengthError = "UF está fora do padrão que é de dois caracteres";
 
         public static string CityAlreadyRegistered = "Está cidade já castrada anteriormente";
-        public static string ClientNotFound;
-        public static string NullClientValidate;
-        public static string NullOrEmptyClientNameValidate;
-        public static string NullOrEmptyClientUFValidate;
-        public static string NullOrEmptyClientGenderValidate;
-        public static string GenderLengthCaracterError;
-        public static string CityReferenceError;
+
+        public static string ClientNotFound = "Cliente não encontrado";
+        
+        public static string NullClientValidate = "Dados não preenchido";
+        
+        public static string NullOrEmptyClientNameValidate = "Nome é obrigatorio para cliente";
+        
+        public static string NullOrEmptyClientUFValidate = "Cidade deve ser informada para cadastro de cliente";
+        
+        public static string NullOrEmptyClientGenderValidate = "Sexo deve ser informado para cadastro do cliente";
+        
+        public static string CityReferenceError = "cidade não encontrada durante cadastro de cliente";
     }
 }

@@ -1,0 +1,20 @@
+<ng-container *ngIf="type != 'select'">
+    <div [formGroup]="formGroupControl">
+        <input type="{{type}}" name="noName" [style]="style" [formControlName]="formControlNameInput"
+        readonly="{{readonly}}" value="{{FildValue}}" [ngModel]="FildValue" class="formField"
+        >
+        <label class="formLabel" for="noName">{{label}}</label>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="type == 'select'">
+    <div [formGroup]="formGroupControl" style="color: #F3F3F3; border: #F3F3F3;">
+        <select name="noName" clearAllText="Clear" class="formFieldSelect"
+            [formControlName]="formControlNameInput" [(ngModel)]="FildValue">
+            <option *ngFor="let item of DataSelect" [ngValue]="item.key">
+                {{item.value}}
+            </option>
+        </select>
+        <label class="formLabel" for="noName">{{label}}</label>
+    </div>
+</ng-container>
