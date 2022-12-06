@@ -1,0 +1,33 @@
+<app-side-bar>
+    <span>Home / Cidades / {{idCity && idCity > 0 ? 'Atualizar Cidade' : 'Cadastrar nova Cidade'}}</span>
+    <hr/>
+    <div class="bodyPage">
+        <form class="formControl">
+            <div class="row">
+                <div class="inputName">
+                    <app-input [label]="'Nome cidade'" [type]="'text'" [FildValue]="outputDto.name"
+                    [formGroupControl]="form" [formControlNameInput]="'name'">       
+                    </app-input> 
+                </div>
+            </div>
+            <div class="row">
+                <ng-container *ngIf="listStates && listStates.length > 0 "> 
+                    <div class="InputState">
+                        <app-input [label]="'Estado'" [type]="'select'" [FildValue]="outputDto.uf"
+                        [formGroupControl]="form" [formControlNameInput]="'uf'" [DataSelect]="listStates">       
+                        </app-input>
+                    </div>
+                </ng-container>
+            </div>
+            <div class="row">
+                <button type="button" (click)="postCity()" class="submit">
+                    Salvar
+                </button>
+
+                <button type="button" (click)="cancel()" class="cancel">
+                    Cancelar
+                </button>
+            </div>
+        </form>
+    </div>
+</app-side-bar>

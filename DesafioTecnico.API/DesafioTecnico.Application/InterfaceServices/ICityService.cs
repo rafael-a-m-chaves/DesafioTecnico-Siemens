@@ -12,7 +12,7 @@ namespace DesafioTecnico.Application.InterfaceServices
 
         Task<ReturnStructure> UpdateCity(CityInputDto updateCityInputDto);
 
-        Task<ReturnStructureData<List<CityOutputDto>>> ListCity(string nome, string uf);
+        Task<ReturnStructureData<List<CityOutputDto>>> ListCity(string nome, string uf, int? idCity);
 
         Task<ReturnStructure> DeleteCity(int idCity);
 

@@ -1,0 +1,21 @@
+.action{
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.content{display:flex; margin: auto;}
+
+.table-content{width: 100%; text-align: center;}
+    .table-content thead{background: #222; font-weight: bold; color:#fff;}
+    .table-content th , .table-content td{padding: 7px 0;}
+
+@media screen and (max-width: 480px){
+    .content{width: 94%;}
+
+    .table-content thead{display:none;}
+    .table-content tbody td{display: flex; flex-direction: column; }
+}
+
+@media only screen and (min-width: 1200px){
+    .content{width:100%;}
+}

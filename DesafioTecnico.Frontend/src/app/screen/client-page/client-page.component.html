@@ -1,0 +1,46 @@
+<app-side-bar>
+    <span>Home / Clientes</span>
+    <hr/>
+    <div class="header">
+        <div class="row">
+            <h1>Clientes cadastrados</h1>
+            <button (click)="newClient()" class="button"><i class="fa fa-plus"></i> Novo Cliente</button>
+        </div>
+        <p>Filtros:</p>
+        <form class="formControl">
+            <div class="Inputname">
+                <app-input [label]="'Nome cliente'" [type]="'text'" 
+                [formGroupControl]="form" [formControlNameInput]="'name'">       
+                </app-input>        
+            </div>
+            <div class="InputId">
+                <app-input [label]="'Id cliente'" [type]="'number'" 
+                [formGroupControl]="form" [formControlNameInput]="'id'">       
+                </app-input>    
+            </div>
+            <ng-container *ngIf="listCities && listCities.length > 0 "> 
+                <div class="InputSelect">
+                    <app-input [label]="'Cidade'" [type]="'select'" 
+                    [formGroupControl]="form" [formControlNameInput]="'city'" [DataSelect]="listCities">       
+                    </app-input>
+                </div>
+            </ng-container>
+            <div class="divButton">
+                <button type="button" (click)="seacherClient()" class="button">
+                    <i  class="fa fa-search action"></i>
+                    Pesquisar
+                </button>
+            </div>
+            <div class="divButton">
+                <button type="button" (click)="clearSearch()" class="button">
+                    <i  class="fa-light fa-soap action"></i>
+                    Limpar
+                </button>
+            </div>
+        </form>
+    </div>
+    <hr/>
+    <div class="bodyTable">
+        <app-grid [theadList]="columns.header" [bodyList]="dataObjectClient" (callParent)="onCallParent($event)" ></app-grid>
+    </div>
+</app-side-bar>
