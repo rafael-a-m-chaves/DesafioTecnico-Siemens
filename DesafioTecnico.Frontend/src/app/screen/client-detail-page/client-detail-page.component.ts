@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-client-detail-page',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./client-detail-page.component.css']
 })
 export class ClientDetailPageComponent implements OnInit {
-
-  constructor() { }
+  idClient?:number;
+  constructor(
+    private route: ActivatedRoute
+    ) {
+      this.route.params.subscribe(params => this.idClient = params['id']);
+     }
 
   ngOnInit(): void {
   }

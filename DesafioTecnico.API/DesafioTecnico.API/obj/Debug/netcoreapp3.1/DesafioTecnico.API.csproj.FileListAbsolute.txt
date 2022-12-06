@@ -204,3 +204,12 @@ C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bi
 C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Repos\desafio\DesafioTecnico-Siemens\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projetos\Desafio Tecnico\DesafioTecnico.API\DesafioTecnico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

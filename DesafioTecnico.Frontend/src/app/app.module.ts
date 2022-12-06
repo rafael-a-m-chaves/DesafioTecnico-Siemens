@@ -11,6 +11,9 @@ import { ClientDetailPageComponent } from './screen/client-detail-page/client-de
 import { BaseService } from './service/base.service';
 import { ClientService } from './service/client.service';
 import { HttpClientModule } from '@angular/common/http';
+import { InputComponent } from './components/input/input.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,15 @@ import { HttpClientModule } from '@angular/common/http';
     SideBarComponent,
     GridComponent,
     ClientDetailPageComponent,
+    InputComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgSelectModule 
   ],
   providers: [BaseService,ClientService],
   bootstrap: [AppComponent]

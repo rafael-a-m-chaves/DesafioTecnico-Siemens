@@ -60,7 +60,7 @@ namespace DesafioTecnico.Application.Services
             }
         }
 
-        public async Task<ReturnStructureData<List<ClientOutputDto>>> ListClient(string nome, string uf, int? id)
+        public async Task<ReturnStructureData<List<ClientOutputDto>>> ListClient(string nome, int? idCity, int? idClient)
         {
             var returnStructure = new ReturnStructureData<List<ClientOutputDto>>();
 
@@ -71,11 +71,11 @@ namespace DesafioTecnico.Application.Services
                 if (!string.IsNullOrWhiteSpace(nome))
                     query.Add(x => x.Name.ToLower().Contains(nome.ToLower()));
 
-                if (!string.IsNullOrWhiteSpace(uf))
-                    query.Add(x => x.City.UF.ToLower().Contains(uf.ToLower()));
+                if (idCity != null)
+                    query.Add(x => x.IdCity == idCity);
 
-                if (id != null && id != 0)
-                    query.Add(x => x.Id == id);
+                if (idClient != null && idClient != 0)
+                    query.Add(x => x.Id == idClient);
 
                 List<Client> listClients = _clientRepository.Listar(query, 
                                                                     ordenadoPor: (y => y.OrderBy(y => y.City.UF + y.City.Name + y.Name)), 
@@ -85,7 +85,7 @@ namespace DesafioTecnico.Application.Services
                 returnStructure.Success = true;
                 returnStructure.Messages = new List<string>() {
                                                                 string.IsNullOrWhiteSpace(nome) &&
-                                                                string.IsNullOrWhiteSpace(uf) ?
+                                                                idClient == null && idCity == null?
                                                                 SuccesMessages.SuccessListClients :
                                                                 SuccesMessages.SuccessSearchClients
                                                               };

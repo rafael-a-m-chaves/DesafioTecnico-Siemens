@@ -1,18 +1,39 @@
 <app-side-bar>
-    <span>Home</span><span>/Clientes</span>
+    <span>Home / Clientes</span>
     <hr/>
     <div class="header">
         <h1>Clientes cadastrados</h1>
         <p>Filtros:</p>
-        <form>
-            <label for="name">Nome Cliente:</label>
-            <input type="text" id="name" placeholder="Nome Cliente">
-            <label for="idClient">Id cliente:</label>
-            <input type="number" id="idClient" placeholder="Id cliente">
-            <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" placeholder="Cidade">
-            <label for="estado">Estado:</label>
-            <input type="text" id="estado" placeholder="Estado">
+        <form class="formControl">
+            <div class="Inputname">
+                <app-input [label]="'Nome cliente'" [type]="'text'" 
+                [formGroupControl]="form" [formControlNameInput]="'name'">       
+            </app-input>        
+            </div>
+            <div class="InputId">
+                <app-input [label]="'Id cliente'" [type]="'number'" 
+                [formGroupControl]="form" [formControlNameInput]="'id'">       
+                </app-input>    
+            </div>
+            <ng-container *ngIf="listCities && listCities.length > 0 "> 
+                <div class="InputSelect">
+                    <app-input [label]="'Cidade'" [type]="'select'" 
+                    [formGroupControl]="form" [formControlNameInput]="'city'" [DataSelect]="listCities">       
+                    </app-input>
+                </div>
+            </ng-container>
+            <div class="divButton">
+                <button type="button" (click)="seacherClient()" class="button">
+                    <i  class="fa fa-search action"></i>
+                    Pesquisar
+                </button>
+            </div>
+            <div class="divButton">
+                <button type="button" (click)="clearSearch()" class="button">
+                    <i  class="fa-light fa-soap action"></i>
+                    Limpar
+                </button>
+            </div>
         </form>
     </div>
     <hr/>
