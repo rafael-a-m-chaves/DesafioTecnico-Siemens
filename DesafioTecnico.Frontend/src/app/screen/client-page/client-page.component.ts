@@ -92,7 +92,6 @@ export class ClientPageComponent implements OnInit {
     let idCity: number = this.form.controls.city.value  ?? null
     this.clientService.listClients(name, idClient, idCity).subscribe(data => {
       if(data.success){
-        console.log(data.messages)
         this.ConvertDateForColumTable(data.data)
         data.messages?.forEach(element => this.toast.success(element))
       }else{

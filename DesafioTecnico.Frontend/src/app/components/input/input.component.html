@@ -1,6 +1,6 @@
 <ng-container *ngIf="type != 'select'">
     <div [formGroup]="formGroupControl">
-        <input type="{{type}}" name="noName" [style]="style" [formControlName]="formControlNameInput"
+        <input type="{{type}}" name="noName" [min]="minimo" [style]="style" [formControlName]="formControlNameInput"
         readonly="{{readonly}}" value="{{FildValue}}" [ngModel]="FildValue" class="formField"
         >
         <label class="formLabel" for="noName">{{label}}</label>

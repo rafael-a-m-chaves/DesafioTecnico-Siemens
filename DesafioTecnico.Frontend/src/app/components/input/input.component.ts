@@ -15,7 +15,7 @@ export class InputComponent implements OnInit {
   @Input() label?:string
   @Input() formControlNameInput!:string
   @Input() readonly!: boolean
-
+  @Input() minimo?:number
   constructor() { }
 
   ngOnInit(): void {

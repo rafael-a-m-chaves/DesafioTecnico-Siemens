@@ -1,19 +1,20 @@
-<nav>
+<div class="row">
+  <nav>
     <div class="hamburger-menu">
-        <input id="menuToggle" type="checkbox" />
-        <label class="menuButon" for="menuToggle">
-          <span></span>
-        </label>
-    
-        <ul class="menuBox">
-          <li><a class="menuItem" href="/clientsPage">Clientes</a></li>
-          <li><a class="menuItem" href="/cityPage">Cidades</a></li>
-        </ul>
+      <input id="menuToggle" type="checkbox" />
+      <label class="menuButon" for="menuToggle">
+        <span></span>
+      </label>
+      
+      <ul class="menuBox">
+        <li><a class="menuItem" href="/clientsPage">Clientes</a></li>
+        <li><a class="menuItem" href="/cityPage">Cidades</a></li>
+      </ul>
     </div>
-</nav>
-<br/><br/>
-<aside  class="content">
+  </nav>
+  <aside  class="content">
     <ng-content>
-
+      
     </ng-content>
-</aside>
+  </aside>
+</div>
